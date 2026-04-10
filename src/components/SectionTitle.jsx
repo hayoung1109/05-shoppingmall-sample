@@ -1,5 +1,6 @@
 
-import "./scss/SectionTitle.scss"
+import "./scss/sectionTitle.scss"
+
 export default function SectionTitle({ title, subTitle }) {
     return (
         <div className='section-title-box'>

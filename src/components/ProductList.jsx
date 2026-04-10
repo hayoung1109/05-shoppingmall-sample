@@ -3,7 +3,7 @@ import { useProductStore } from '../store/useProductStore'
 import { useEffect } from 'react';
 import ProductItem from './ProductItem';
 import { Link, useParams } from 'react-router-dom';
-import "./scss/ProductList.scss"
+import "./scss/productList.scss"
 import SectionTitle from './SectionTitle';
 
 export default function ProductList({ category }) {
